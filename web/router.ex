@@ -15,8 +15,6 @@ defmodule DietScorecard.Router do
 
   scope "/", DietScorecard do
     pipe_through :browser # Use the default browser stack
-
-    get "/", PageController, :index
   end
 
   # Other scopes may use custom stacks.
